@@ -1,0 +1,19 @@
+
+i
+9app/src/main/java/com/example/sanpauloapp/MainActivity.kt,6\0\60b84bfc41760842173ef0b7e3bf19664c042767
+a
+1app/src/main/java/com/example/sanpauloapp/Menu.kt,3\e\3ed4782444b5a819963c847c3bd37199ea286854
+d
+4app/src/main/java/com/example/sanpauloapp/Agregar.kt,c\5\c5102af3462720f10b16ce1ae6924a8ac1d5167c
+e
+5app/src/main/java/com/example/sanpauloapp/Eliminar.kt,f\6\f6c77184be4c1d2827ff703c77c6e3af49e26abb
+f
+6app/src/main/java/com/example/sanpauloapp/Modificar.kt,4\e\4e83d946f17985581354d7ab6cc2421b6058d3d5
+e
+5app/src/main/java/com/example/sanpauloapp/Reportes.kt,4\b\4bab10a7fd4ee6a3c3f8fcec45db35c9a5cf815a
+c
+3app/src/main/java/com/example/sanpauloapp/Buscar.kt,f\5\f530e108e6016f931961c182f28ee88cd38a2ffa
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+D
+app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
