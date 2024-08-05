@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="turno_options">
+            <item>Matutino</item>
+            <item>Verpertino</item>
+            <!-- Agrega más opciones de turno según sea necesario -->
+        </string-array>
+
+        <string-array name="cargo_options">
+            <item>Administrador</item>
+            <item>Quimico</item>
+            <item>Limpieza</item>
+            <!-- Agrega más opciones de cargo según sea necesario -->
+        </string-array>
+    </resources>

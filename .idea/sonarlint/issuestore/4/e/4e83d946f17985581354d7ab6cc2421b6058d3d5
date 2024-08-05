@@ -1,0 +1,8 @@
+
+kotlin:S66192"7Remove this useless non-null check, it always succeeds.(·—Åøÿÿÿÿ8ÑÈ÷Éô1J$1b495c82-b8b1-4ee0-9e3a-e375ae5405dd
+€kotlin:S6619K"<Remove this useless null-safe access ?., it always succeeds.(—£Ñ%8ÓÈ÷Éô1J$002ac5e4-a980-4aee-b9af-eb192b3a85e6
+kotlin:S107t"GThis function has 8 parameters, which is greater than the 7 authorized.(¢Ùµƒüÿÿÿÿ8íÈ÷Éô1J$ad56a0df-39a1-40df-a296-f0e37a88e1ed
+hkotlin:S1874~"#Deprecated code should not be used.(î…8É÷Éô1J$460228c2-03b0-48de-bed0-f80a93853390
+hkotlin:S1874"#Deprecated code should not be used.(äŒ‹°8É÷Éô1J$3c33bd1f-f7ad-4f52-981e-157767069fcd
+mkotlin:S1874"#Deprecated code should not be used.(·•¥¦ûÿÿÿÿ8‘É÷Éô1J$619e54bc-2c5c-4616-8af6-21b0ac0aa4b4
+hkotlin:S1874~"#Deprecated code should not be used.(î…8’É÷Éô1J$85df51b5-0132-418c-9bc3-01a270b80b01

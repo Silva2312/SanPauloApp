@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/fondoagregar"
+    tools:context=".Modificar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/modificar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/Idusuario"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/lavender_border"
+                android:fontFamily="@font/alatsi"
+                android:gravity="start|center_vertical"
+                android:hint="Id usuario"
+                android:padding="16dp"
+                android:textColor="@color/principal" />
+
+            <EditText
+                android:id="@+id/editnombres"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/lavender_border"
+                android:fontFamily="@font/alatsi"
+                android:gravity="start|center_vertical"
+                android:hint="Nombres"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/editapellido1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/lavender_border"
+                android:fontFamily="@font/alatsi"
+                android:gravity="start|center_vertical"
+                android:hint="Apellido Paterno"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/editapellido2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/lavender_border"
+                android:fontFamily="@font/alatsi"
+                android:gravity="start|center_vertical"
+                android:hint="Apellido Materno"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/editdomicilio"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/lavender_border"
+                android:fontFamily="@font/alatsi"
+                android:gravity="start|center_vertical"
+                android:hint="Domicilio"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/edittelefono"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/lavender_border"
+                android:fontFamily="@font/alatsi"
+                android:gravity="start|center_vertical"
+                android:hint="Telefono"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <RadioGroup
+                android:id="@+id/turnoRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/turnoManana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mañana"
+                    android:textColor="@color/lavender"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/turnoTarde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tarde"
+                    android:textColor="@color/lavender" />
+
+            </RadioGroup>
+            <EditText
+                android:id="@+id/editcodigot"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/lavender_border"
+                android:fontFamily="@font/alatsi"
+                android:gravity="start|center_vertical"
+                android:hint="Codigo"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <Button
+                android:id="@+id/editButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/purple_700"
+                android:text="Guardar"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
